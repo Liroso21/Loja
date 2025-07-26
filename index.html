@@ -1,136 +1,63 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
+<!DOCTYPE html><html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-  <title>Encanto Reborn - Sua Loja de Bebês Reais</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Loja Top de Linha</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
   <style>
-    body {
-      font-family: 'Segoe UI', sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: #fffafc;
-    }
-    header {
-      background-color: #ffb6c1;
-      padding: 20px;
-      text-align: center;
-      color: white;
-    }
-    header h1 {
-      margin: 0;
-    }
-    nav {
-      background: #ffccd5;
-      padding: 10px;
-      text-align: center;
-    }
-    nav a {
-      margin: 0 15px;
-      color: #7a003c;
-      text-decoration: none;
-      font-weight: bold;
-    }
-    .hero {
-      text-align: center;
-      padding: 50px 20px;
-      background: url('https://i.imgur.com/6X8oy5L.jpg') no-repeat center center;
-      background-size: cover;
-      color: white;
-    }
-    .hero h2 {
-      font-size: 2.5em;
-      background: rgba(0,0,0,0.4);
-      padding: 10px;
-      display: inline-block;
-    }
-    .produtos {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      padding: 20px;
-    }
-    .produto {
-      background: #fff0f5;
-      border: 1px solid #ff99aa;
-      border-radius: 15px;
-      margin: 10px;
-      width: 250px;
-      text-align: center;
-      padding: 15px;
-    }
-    .produto img {
-      width: 100%;
-      border-radius: 10px;
-    }
-    .produto h3 {
-      margin: 10px 0 5px;
-    }
-    .produto p {
-      font-weight: bold;
-      color: #c2185b;
-    }
-    .btn {
-      display: inline-block;
-      padding: 10px 20px;
-      background: #ff6f91;
-      color: white;
-      text-decoration: none;
-      border-radius: 8px;
-      margin-top: 10px;
-    }
-    footer {
-      background: #ffb6c1;
-      color: white;
-      text-align: center;
-      padding: 20px;
-      margin-top: 30px;
-    }
+    body { font-family: 'Roboto', sans-serif; margin: 0; padding: 0; background: #f9f9f9; }
+    header { background: #222; color: #fff; padding: 20px; text-align: center; }
+    nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
+    section { padding: 20px; }
+    .banner { background: #d5e1f2; text-align: center; padding: 50px 20px; }
+    .produto { background: #fff; padding: 20px; margin-bottom: 20px; border-radius: 8px; box-shadow: 0 0 10px #ccc; }
+    .produto img { max-width: 100%; height: auto; }
+    footer { background: #222; color: #fff; padding: 20px; text-align: center; }
+    .btn { background: #ff6600; color: #fff; padding: 10px 20px; text-decoration: none; border-radius: 5px; display: inline-block; margin-top: 10px; }
   </style>
 </head>
 <body>
-
   <header>
-    <h1>Encanto Reborn</h1>
-    <p>O sonho de ter um bebê real mais perto de você!</p>
-  </header>
+    <h1>Loja Top de Linha</h1>
+    <nav>
+      <a href="#home">Início</a>
+      <a href="#produtos">Produtos</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>  <section class="banner" id="home">
+    <h2>Promoções Imperdíveis!</h2>
+    <p>Bonecas Reborn e Armas em Gel com preço que cabe no bolso!</p>
+    <a class="btn" href="#produtos">Ver Produtos</a>
+  </section>  <section id="produtos">
+    <h2>Produtos em Destaque</h2><div class="produto">
+  <h3>Arma em Gel</h3>
+  <img src="https://cf.shopee.com.br/file/sg-11134201-7rblp-ltdwncs20c2id3" alt="Arma em Gel">
+  <p>Arma em gel de alta performance, ideal para diversão com segurança. Contém carregador USB, balas em gel e acessórios.</p>
+  <strong>R$200,00</strong><br>
+  <a class="btn" href="#">Comprar</a>
+</div>
 
-  <nav>
-    <a href="#">Início</a>
-    <a href="#produtos">Produtos</a>
-    <a href="https://wa.me/SEUNUMERO" target="_blank">Fale Conosco</a>
-  </nav>
+<div class="produto">
+  <h3>Boneca Reborn Promoção</h3>
+  <img src="https://cf.shopee.com.br/file/74de4e029e85a3e942334caaae9b3a6f" alt="Boneca Reborn">
+  <p>Boneca reborn de silicone 100% realista com roupas, acessórios e caixa presente. Ideal para colecionadores e crianças.</p>
+  <strong>R$150,00</strong><br>
+  <a class="btn" href="#">Comprar</a>
+</div>
 
-  <section class="hero">
-    <h2>Bonecas Reborn com Realismo Incrível</h2>
-    <p>Feitas com amor para encantar</p>
-  </section>
+<div class="produto">
+  <h3>Boneca Reborn Menina 48cm</h3>
+  <img src="https://cf.shopee.com.br/file/4bc51200d510c931b7bc4bdbb10c6022" alt="Boneca Reborn 48cm">
+  <p>Boneca Reborn menina de 48cm feita com silicone macio, vem com chupeta, mamadeira e roupinha personalizada.</p>
+  <strong>R$150,00</strong><br>
+  <a class="btn" href="#">Comprar</a>
+</div>
 
-  <section class="produtos" id="produtos">
-    <div class="produto">
-      <img src="https://i.imgur.com/jJ9xEJj.jpg" alt="Boneca Reborn Aline">
-      <h3>Boneca Aline</h3>
-      <p>R$ 289,90</p>
-      <a href="https://wa.me/SEUNUMERO?text=Gostaria+de+comprar+a+Boneca+Aline+Reborn" class="btn" target="_blank">Comprar</a>
-    </div>
-    <div class="produto">
-      <img src="https://i.imgur.com/xqjl6FV.jpg" alt="Boneco Miguel">
-      <h3>Boneco Miguel</h3>
-      <p>R$ 310,00</p>
-      <a href="https://wa.me/SEUNUMERO?text=Gostaria+de+comprar+o+Boneco+Miguel+Reborn" class="btn" target="_blank">Comprar</a>
-    </div>
-    <div class="produto">
-      <img src="https://i.imgur.com/BAKQZOl.jpg" alt="Boneca Sophia">
-      <h3>Boneca Sophia</h3>
-      <p>R$ 279,90</p>
-      <a href="https://wa.me/SEUNUMERO?text=Gostaria+de+comprar+a+Boneca+Sophia+Reborn" class="btn" target="_blank">Comprar</a>
-    </div>
-  </section>
-
-  <footer>
-    <p>Encanto Reborn © 2025 - Todos os direitos reservados</p>
-    <p>Envio para todo o Brasil | Pagamento via Pix, Boleto e Cartão</p>
+  </section>  <section id="contato">
+    <h2>Fale Conosco</h2>
+    <p>Em breve atualizaremos com número de WhatsApp e e-mail para suporte ao cliente.</p>
+  </section>  <footer>
+    <p>&copy; 2025 Loja Top de Linha. Todos os direitos reservados.</p>
   </footer>
-
 </body>
 </html>
