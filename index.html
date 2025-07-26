@@ -1,75 +1,152 @@
-<!DOCTYPE html><html lang="pt-br">
+<!DOCTYPE html>
+<html lang="pt-br">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Encanto Infantil</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
+      font-family: 'Arial', sans-serif;
       margin: 0;
-      padding: 0;
-      background-color: #fdf3f3;
-      color: #333;
+      background-color: #fff6f9;
+      color: #444;
     }
+
     header {
-      background-color: #ff80ab;
-      color: white;
+      background-color: #ffb6c1;
       padding: 20px;
       text-align: center;
     }
+
+    header h1 {
+      margin: 0;
+      color: #fff;
+      font-size: 2.5em;
+    }
+
     nav {
-      background-color: #ffb6c1;
-      display: flex;
-      justify-content: center;
-      gap: 20px;
+      background-color: #ffe4ec;
+      text-align: center;
       padding: 10px;
     }
+
     nav a {
+      margin: 0 15px;
       text-decoration: none;
-      color: #fff;
+      color: #d63384;
       font-weight: bold;
     }
+
     .banner {
       width: 100%;
-      text-align: center;
-      padding: 30px;
-      background-color: #ffe4e1;
+      max-height: 400px;
+      overflow: hidden;
     }
-    .banner h2 {
-      margin: 0;
+
+    .banner img {
+      width: 100%;
+      display: block;
     }
+
     .produtos {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 30px 10px;
       gap: 20px;
-      padding: 20px;
     }
+
     .produto {
-      border: 1px solid #ddd;
+      background-color: #fff;
+      border-radius: 15px;
+      box-shadow: 0 0 10px #ccc;
       padding: 15px;
-      background-color: white;
-      border-radius: 10px;
+      width: 280px;
       text-align: center;
     }
+
     .produto img {
-      max-width: 100%;
-      height: auto;
+      width: 100%;
+      height: 220px;
+      object-fit: cover;
+      border-radius: 10px;
     }
-    footer {
-      background-color: #ff80ab;
+
+    .produto h2 {
+      color: #d63384;
+      font-size: 1.2em;
+      margin: 10px 0 5px;
+    }
+
+    .produto p {
+      margin: 0 0 10px;
+      font-size: 1em;
+    }
+
+    .produto button {
+      background-color: #ff69b4;
       color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+
+    .produto button:hover {
+      background-color: #e5539c;
+    }
+
+    footer {
+      background-color: #ffe4ec;
       text-align: center;
       padding: 20px;
-      margin-top: 30px;
+      font-size: 0.9em;
+      color: #555;
     }
   </style>
 </head>
 <body>
+
   <header>
     <h1>Encanto Infantil</h1>
-    <p>As melhores bonecas Reborn e brinquedos encantadores!</p>
   </header>
+
   <nav>
-    <a href="#bonecas">Bonecas</a>
-    <a href="#armas">Armas em Gel</a>
-    <a href="#su
+    <a href="#">Início</a>
+    <a href="#">Produtos</a>
+    <a href="#">Contato</a>
+  </nav>
+
+  <div class="banner">
+    <img src="https://i.imgur.com/7sZH0iN.jpg" alt="Banner Encanto Infantil">
+  </div>
+
+  <section class="produtos">
+    <div class="produto">
+      <img src="https://i.imgur.com/4qTfyOq.jpg" alt="Bebê Reborn Rosa">
+      <h2>Bebê Reborn Rosa</h2>
+      <p>Um encanto de bebê para brincar e amar. Super realista!</p>
+      <button>Comprar</button>
+    </div>
+
+    <div class="produto">
+      <img src="https://i.imgur.com/kh3NPKs.jpg" alt="Bebê Reborn Azul">
+      <h2>Bebê Reborn Azul</h2>
+      <p>Detalhes incríveis e corpo macio. Entrega garantida!</p>
+      <button>Comprar</button>
+    </div>
+
+    <div class="produto">
+      <img src="https://i.imgur.com/Cnqktuj.jpg" alt="Bebê Reborn Ursinho">
+      <h2>Bebê Ursinho</h2>
+      <p>Acompanha roupinha temática de urso. Um mimo!</p>
+      <button>Comprar</button>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Encanto Infantil. Todos os direitos reservados.
+  </footer>
+
+</body>
+</html>
