@@ -1,73 +1,75 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
+<!DOCTYPE html><html lang="pt-br">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Loja Top de Linha</title>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Encanto Infantil</title>
   <style>
-    body { font-family: 'Roboto', sans-serif; margin: 0; padding: 0; background: #f9f9f9; }
-    header { background: #222; color: #fff; padding: 20px; text-align: center; }
-    nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
-    section { padding: 20px; }
-    .banner { background: #d5e1f2; text-align: center; padding: 50px 20px; }
-    .produto { background: #fff; padding: 20px; margin-bottom: 20px; border-radius: 8px; box-shadow: 0 0 10px #ccc; }
-    .produto img { max-width: 100%; height: auto; }
-    footer { background: #222; color: #fff; padding: 20px; text-align: center; }
-    .btn { background: #ff6600; color: #fff; padding: 10px 20px; text-decoration: none; border-radius: 5px; display: inline-block; margin-top: 10px; }
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #fdf3f3;
+      color: #333;
+    }
+    header {
+      background-color: #ff80ab;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background-color: #ffb6c1;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 10px;
+    }
+    nav a {
+      text-decoration: none;
+      color: #fff;
+      font-weight: bold;
+    }
+    .banner {
+      width: 100%;
+      text-align: center;
+      padding: 30px;
+      background-color: #ffe4e1;
+    }
+    .banner h2 {
+      margin: 0;
+    }
+    .produtos {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+    .produto {
+      border: 1px solid #ddd;
+      padding: 15px;
+      background-color: white;
+      border-radius: 10px;
+      text-align: center;
+    }
+    .produto img {
+      max-width: 100%;
+      height: auto;
+    }
+    footer {
+      background-color: #ff80ab;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 30px;
+    }
   </style>
 </head>
 <body>
   <header>
-    <h1>Loja Top de Linha</h1>
-    <nav>
-      <a href="#home">Início</a>
-      <a href="#produtos">Produtos</a>
-      <a href="#contato">Contato</a>
-    </nav>
+    <h1>Encanto Infantil</h1>
+    <p>As melhores bonecas Reborn e brinquedos encantadores!</p>
   </header>
-
-  <section class="banner" id="home">
-    <h2>Promoções Imperdíveis!</h2>
-    <p>Bonecas Reborn e Armas em Gel com preço que cabe no bolso!</p>
-    <a class="btn" href="#produtos">Ver Produtos</a>
-  </section>
-
-  <section id="produtos">
-    <h2>Produtos em Destaque</h2>
-
-    <div class="produto">
-      <h3>Arma em Gel</h3>
-      <img src="https://cf.shopee.com.br/file/sg-11134201-7rblp-ltdwncs20c2id3" alt="Arma em Gel" />
-      <p>Arma em gel de alta performance, ideal para diversão com segurança. Contém carregador USB, balas em gel e acessórios.</p>
-      <strong>R$200,00</strong><br />
-      <a class="btn" href="#">Comprar</a>
-    </div>
-
-    <div class="produto">
-      <h3>Boneca Reborn Promoção</h3>
-      <img src="https://cf.shopee.com.br/file/74de4e029e85a3e942334caaae9b3a6f" alt="Boneca Reborn" />
-      <p>Boneca reborn de silicone 100% realista com roupas, acessórios e caixa presente. Ideal para colecionadores e crianças.</p>
-      <strong>R$150,00</strong><br />
-      <a class="btn" href="#">Comprar</a>
-    </div>
-
-    <div class="produto">
-      <h3>Boneca Reborn Menina 48cm</h3>
-      <img src="https://cf.shopee.com.br/file/4bc51200d510c931b7bc4bdbb10c6022" alt="Boneca Reborn 48cm" />
-      <p>Boneca Reborn menina de 48cm feita com silicone macio, vem com chupeta, mamadeira e roupinha personalizada.</p>
-      <strong>R$150,00</strong><br />
-      <a class="btn" href="#">Comprar</a>
-    </div>
-  </section>
-
-  <section id="contato">
-    <h2>Fale Conosco</h2>
-    <p>Em breve atualizaremos com número de WhatsApp e e-mail para suporte ao cliente.</p>
-  </section>
-
-  <footer>
-    <p>&copy; 2025 Loja Top de Linha. Todos os direitos reservados.</p>
-  </footer>
-</body>
-</html>
+  <nav>
+    <a href="#bonecas">Bonecas</a>
+    <a href="#armas">Armas em Gel</a>
+    <a href="#su
